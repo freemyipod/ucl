@@ -8,9 +8,9 @@
 #
 CFLAGS = -O2 -Iinclude
 
-TARGET = ../uclpack
-TARGET2 = ../ucl2e10singleblk
-TARGET3 = ../ucl2e10singleblkunpack
+TARGET = uclpack
+TARGET2 = ucl2e10singleblk
+TARGET3 = ucl2e10singleblkunpack
 TARGETS = $(TARGET) $(TARGET2) $(TARGET3)
 
 ifeq ($(shell uname),WindowsNT)
